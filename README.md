@@ -1,6 +1,6 @@
 # E-Commerce Marketing Funnel & CAC Analysis (SQL)
 
-## 📊 Executive Summary & Key Insights
+##  Executive Summary & Key Insights
 This project analyzes marketing attribution data to optimize ad spend across Google, Facebook, and Instagram. By building a standardized data pipeline from raw transaction logs, I isolated real customer acquisition costs (CAC) and conversion rates to identify marketing inefficiencies.
 
 *   **Google is our most efficient channel:** It boasts the lowest Customer Acquisition Cost (**$2.15** per user), making it 46% cheaper than Instagram.
@@ -9,7 +9,7 @@ This project analyzes marketing attribution data to optimize ad spend across Goo
 
 ---
 
-## 🛠️ Tech Stack & Skills
+##  Tech Stack & Skills
 *   **Language:** SQL (PostgreSQL compatible)
 *   **Concepts:** Data Cleaning, Common Table Expressions (CTEs), Window Functions (`ROW_NUMBER`), Data Engineering, Business Metrics (CAC, Conversion Rates).
 
@@ -47,6 +47,6 @@ I wrote a pipeline query using **CTEs** and **Window Functions** to clean the da
 
 ---
 
-## 🚀 Strategic Recommendations for Leadership
+##  Strategic Recommendations for Leadership
 1. **Shift Ad Spend:** Reallocate 15-20% of the budget from Instagram to Google to lower overall average CAC while scaling up customer volume efficiently.
 2. **Implement Upstream Constraints:** Work with the engineering team to enforce lowercase, trimmed validation rules on `utm_source` codes at the web-form level to prevent future database pollution.
